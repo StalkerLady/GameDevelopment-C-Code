@@ -6,6 +6,8 @@ public class Bird : MonoBehaviour
 {
     Vector2 _startPos;
     [SerializeField] float launchForce = 500;
+
+
     // Start is called before the first frame update
     void Start()
     {
