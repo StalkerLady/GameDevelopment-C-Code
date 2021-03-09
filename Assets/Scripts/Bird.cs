@@ -20,6 +20,7 @@ public class Bird : MonoBehaviour
         GetComponent<SpriteRenderer>().color = new Color(255,255,0);
 
     }
+    
      void OnMouseUp()
     {
         GetComponent<Rigidbody2D>().isKinematic = false;
